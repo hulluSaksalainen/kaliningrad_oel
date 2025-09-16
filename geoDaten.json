@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kravtsovskoye-Feld (D-6)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5,
+          54.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gusev Onshore-Feld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2,
+          54.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nesterov Onshore-Feld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.57,
+          54.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chernyakhovsk Onshore-Feld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.83,
+          54.63
+        ]
+      }
+    }
+  ]
+}

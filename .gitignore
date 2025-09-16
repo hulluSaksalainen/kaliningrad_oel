@@ -1,0 +1,4 @@
+.venv/*
+datenfiles/*
+images/*
+test.py

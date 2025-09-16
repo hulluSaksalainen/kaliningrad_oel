@@ -1,4 +1,91 @@
+
 <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kaliningrad Ölquellen</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  #top {
+    height: 50%;
+    overflow-y: auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  #bottom {
+    height: 50%;
+  }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="top">
+    <h3 id="olquellen-in-der-region-kaliningrad">Ölquellen in der Region Kaliningrad</h3>
+<table>
+<thead>
+<tr>
+<th>Ölquelle/Feld</th>
+<th>Typ</th>
+<th>Ungefähre Position</th>
+<th>Entdeckung/Start Produktion</th>
+<th>Fördermenge (geschätzt)</th>
+<th>Betreiber</th>
+<th>Bemerkungen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kravtsovskoye (auch D-6)</strong></td>
+<td>Offshore-Plattform</td>
+<td>Ca. 22 km westlich der Küste bei Primorsk (Koordinaten: 54°40'N 19°20'E, im Baltischen Meer)</td>
+<td>Entdeckt 1983, Produktion seit 2004</td>
+<td>9,1 Mio. Tonnen förderbar; aktuelle Produktion ca. 600.000 Tonnen/Jahr (Stand 2007, rückläufig)</td>
+<td>Lukoil (Lukoil-Kaliningradmorneft)</td>
+<td>Wichtigstes Offshore-Feld. Verbunden per 47 km langer Unterwasser-Pipeline mit dem Landterminal in Romanovo. Umweltbedenken wegen Nähe zur Kurischen Nehrung (UNESCO-Weltkulturerbe).</td>
+</tr>
+<tr>
+<td><strong>Krasnoborskiy</strong></td>
+<td>Onshore-Feld</td>
+<td>Südwesten der Oblast, nahe der polnischen Grenze (ca. bei Krasnoznamensk, Koordinaten: 54°39'N 21°10'E)</td>
+<td>Entdeckt 1968, Produktion seit 1975</td>
+<td>Frühe Förderung ca. 100.000 Tonnen/Jahr; heute erschöpft (Wasseraustritt &gt;80%)</td>
+<td>Lukoil</td>
+<td>Erstes kommerzielles Feld der Region. Teil der initialen Onshore-Entwicklung.</td>
+</tr>
+<tr>
+<td><strong>Gusevskaya</strong></td>
+<td>Onshore-Feld</td>
+<td>Südosten der Oblast, nahe der litauischen Grenze (bei Gussew, Koordinaten: 54°36'N 22°10'E)</td>
+<td>Entdeckt 1967 (erste Ölprobe)</td>
+<td>Gering, ca. 50.000–100.000 Tonnen insgesamt</td>
+<td>Frühe sowjetische Betreiber, später Lukoil</td>
+<td>Pionierfeld; markierte den Start der Ölförderung in Kaliningrad. Heute nicht mehr aktiv.</td>
+</tr>
+<tr>
+<td><strong>Weitere Offshore-Felder (z. B. in Block D-6)</strong></td>
+<td>Offshore</td>
+<td>Südliches Baltisches Meer, ca. 20–30 km vor der Küste (allg. Koordinaten: 54°30'–55°00'N 19°00'–19°30'E)</td>
+<td>Planung seit 2000er, teilweise in Entwicklung</td>
+<td>Potenzial für 30–35 Jahre Förderung; Gesamtvorräte im russischen Sektor des Baltikums: &gt;100 Mio. Tonnen</td>
+<td>Lukoil</td>
+<td>Umfasst Erweiterungen von D-6; Fokus auf tiefe Bohrlöcher. Keine detaillierten Karten öffentlich, aber Pipeline-Netz zum Izhevsky-Terminal (Kapazität 4 Mio. Tonnen/Jahr).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="zusatzliche-infos-zur-region">Zusätzliche Infos zur Region</h4>
+<ul>
+<li><strong>Historischer Kontext</strong>: Die Ölförderung begann in den 1960er-Jahren mit Onshore-Feldern, boomte in den 1970er/80er-Jahren, aber Onshore-Ressourcen sind weitgehend erschöpft. Seit den 2000er-Jahren verschiebt sich der Fokus auf Offshore (Baltikum-Sektor), wo Lukoil über 20 Jahre aktiv ist. Die Oblast produziert ca. 1–2% des russischen Öls insgesamt.</li>
+<li><strong>Wirtschaftliche Bedeutung</strong>: Öl macht ca. 10–15% der regionalen Wirtschaft aus. Export über den Hafen Primorsk (Ölterminal). Potenzial für Gas (Gazprom), aber Fokus liegt auf Öl.</li>
+</ul>
+  </div>
+  <div id="bottom">
+    <!DOCTYPE html>
 <html>
 <head>
     
@@ -17,10 +104,10 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_78d5f47eb0741b0118b7967b9cffe1d3 {
+                #map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a {
                     position: relative;
                     width: 100.0%;
-                    height: 100.0%;
+                    height: 50.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
@@ -54,19 +141,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_78d5f47eb0741b0118b7967b9cffe1d3" ></div>
+            <div class="folium-map" id="map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a" ></div>
         
 </body>
 <script>
     
     
-            var map_78d5f47eb0741b0118b7967b9cffe1d3 = L.map(
-                "map_78d5f47eb0741b0118b7967b9cffe1d3",
+            var map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a = L.map(
+                "map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a",
                 {
                     center: [54.7, 21.0],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 8,
+  "zoom": 9,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -78,7 +165,7 @@
 
         
     
-            var tile_layer_a38fab063f23627b6ab02f1811ab9aac = L.tileLayer(
+            var tile_layer_1fc5516309702e5b27ca4460e79774f6 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,99 +182,162 @@
             );
         
     
-            tile_layer_a38fab063f23627b6ab02f1811ab9aac.addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+            tile_layer_1fc5516309702e5b27ca4460e79774f6.addTo(map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a);
         
     
-            var circle_marker_8bfeb30e81b2d8523f5bcc0152a9e22c = L.circleMarker(
+            var marker_2004fe7b2341d19e36e588597b370d64 = L.marker(
                 [54.65, 19.5],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+                {
+}
+            ).addTo(map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a);
         
     
-        var popup_9cb53b9c59fb5e62be24ac62906e5bd6 = L.popup({
+            var icon_934bdf2aee1068f1eafd111fc3f5b756 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_893ba67b7c331d2e4af451562e293a40 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_d48b72347a0f607b506c9fcc096d1520 = $(`<div id="html_d48b72347a0f607b506c9fcc096d1520" style="width: 100.0%; height: 100.0%;">Kravtsovskoye-Feld (D-6)</div>`)[0];
-                popup_9cb53b9c59fb5e62be24ac62906e5bd6.setContent(html_d48b72347a0f607b506c9fcc096d1520);
+                var html_c3d9b3e89ec238a0207f7eb1b700709b = $(`<div id="html_c3d9b3e89ec238a0207f7eb1b700709b" style="width: 100.0%; height: 100.0%;">Kravtsovskoye-Feld (D-6)</div>`)[0];
+                popup_893ba67b7c331d2e4af451562e293a40.setContent(html_c3d9b3e89ec238a0207f7eb1b700709b);
             
         
 
-        circle_marker_8bfeb30e81b2d8523f5bcc0152a9e22c.bindPopup(popup_9cb53b9c59fb5e62be24ac62906e5bd6)
+        marker_2004fe7b2341d19e36e588597b370d64.bindPopup(popup_893ba67b7c331d2e4af451562e293a40)
         ;
 
         
     
     
-            var circle_marker_f938b992e8720cb16fe02ac09b4f55c3 = L.circleMarker(
+                marker_2004fe7b2341d19e36e588597b370d64.setIcon(icon_934bdf2aee1068f1eafd111fc3f5b756);
+            
+    
+            var marker_11b4ad32ac3a2b141cc48d3a6e0f5099 = L.marker(
                 [54.6, 22.2],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+                {
+}
+            ).addTo(map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a);
         
     
-        var popup_ee0de97d0aa659116328826f5c28596c = L.popup({
+            var icon_71cd50dc7a1f1a3253313a1b20d8de0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bcf4c0c17863f5a63112827760add7ab = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_82751183a82c837c5f9a0eaa5fd5776b = $(`<div id="html_82751183a82c837c5f9a0eaa5fd5776b" style="width: 100.0%; height: 100.0%;">Gusev Onshore-Feld</div>`)[0];
-                popup_ee0de97d0aa659116328826f5c28596c.setContent(html_82751183a82c837c5f9a0eaa5fd5776b);
+                var html_5847dbfef05e891e879ba817779374cb = $(`<div id="html_5847dbfef05e891e879ba817779374cb" style="width: 100.0%; height: 100.0%;">Gusev Onshore-Feld</div>`)[0];
+                popup_bcf4c0c17863f5a63112827760add7ab.setContent(html_5847dbfef05e891e879ba817779374cb);
             
         
 
-        circle_marker_f938b992e8720cb16fe02ac09b4f55c3.bindPopup(popup_ee0de97d0aa659116328826f5c28596c)
+        marker_11b4ad32ac3a2b141cc48d3a6e0f5099.bindPopup(popup_bcf4c0c17863f5a63112827760add7ab)
         ;
 
         
     
     
-            var circle_marker_2775acfddbe103183af1dcf9eb726bc5 = L.circleMarker(
+                marker_11b4ad32ac3a2b141cc48d3a6e0f5099.setIcon(icon_71cd50dc7a1f1a3253313a1b20d8de0f);
+            
+    
+            var marker_5dcd3b35ad666fb33f022077f1ae8ffa = L.marker(
                 [54.63, 22.57],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+                {
+}
+            ).addTo(map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a);
         
     
-        var popup_99157c89ba3904c2f035b6dd5289d89d = L.popup({
+            var icon_d15c1685c853bc01acb187bf602e8252 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a96516dd0445a80919d7137ee2e94ed = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_90e6d52f50182bb314342c8b1c54fae8 = $(`<div id="html_90e6d52f50182bb314342c8b1c54fae8" style="width: 100.0%; height: 100.0%;">Nesterov Onshore-Feld</div>`)[0];
-                popup_99157c89ba3904c2f035b6dd5289d89d.setContent(html_90e6d52f50182bb314342c8b1c54fae8);
+                var html_26c63bc22c10f796db0437cd95391464 = $(`<div id="html_26c63bc22c10f796db0437cd95391464" style="width: 100.0%; height: 100.0%;">Nesterov Onshore-Feld</div>`)[0];
+                popup_4a96516dd0445a80919d7137ee2e94ed.setContent(html_26c63bc22c10f796db0437cd95391464);
             
         
 
-        circle_marker_2775acfddbe103183af1dcf9eb726bc5.bindPopup(popup_99157c89ba3904c2f035b6dd5289d89d)
+        marker_5dcd3b35ad666fb33f022077f1ae8ffa.bindPopup(popup_4a96516dd0445a80919d7137ee2e94ed)
         ;
 
         
     
     
-            var circle_marker_2b5ea3d56de4c326136fea33e3732bd3 = L.circleMarker(
+                marker_5dcd3b35ad666fb33f022077f1ae8ffa.setIcon(icon_d15c1685c853bc01acb187bf602e8252);
+            
+    
+            var marker_c06c11dee5e555f17b48897b8d7861de = L.marker(
                 [54.63, 21.83],
-                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+                {
+}
+            ).addTo(map_a78b8fb2d5e16aaca9c6a2e0b5f6b01a);
         
     
-        var popup_d94544e85917ec75fcbf9cf158b9c227 = L.popup({
+            var icon_ffc07ca08f32fb9c8e37d6646cf6f9a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14c8e4d992c00eccfc196931a1aad255 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_69e7c48a1b5a6c5935e98b415ab01ce7 = $(`<div id="html_69e7c48a1b5a6c5935e98b415ab01ce7" style="width: 100.0%; height: 100.0%;">Chernyakhovsk Onshore-Feld</div>`)[0];
-                popup_d94544e85917ec75fcbf9cf158b9c227.setContent(html_69e7c48a1b5a6c5935e98b415ab01ce7);
+                var html_26792db17889d0410f829230d7410e83 = $(`<div id="html_26792db17889d0410f829230d7410e83" style="width: 100.0%; height: 100.0%;">Chernyakhovsk Onshore-Feld</div>`)[0];
+                popup_14c8e4d992c00eccfc196931a1aad255.setContent(html_26792db17889d0410f829230d7410e83);
             
         
 
-        circle_marker_2b5ea3d56de4c326136fea33e3732bd3.bindPopup(popup_d94544e85917ec75fcbf9cf158b9c227)
+        marker_c06c11dee5e555f17b48897b8d7861de.bindPopup(popup_14c8e4d992c00eccfc196931a1aad255)
         ;
 
         
     
+    
+                marker_c06c11dee5e555f17b48897b8d7861de.setIcon(icon_ffc07ca08f32fb9c8e37d6646cf6f9a3);
+            
 </script>
+</html>
+  </div>
+</body>
 </html>

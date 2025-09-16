@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_78d5f47eb0741b0118b7967b9cffe1d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_78d5f47eb0741b0118b7967b9cffe1d3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_78d5f47eb0741b0118b7967b9cffe1d3 = L.map(
+                "map_78d5f47eb0741b0118b7967b9cffe1d3",
+                {
+                    center: [54.7, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a38fab063f23627b6ab02f1811ab9aac = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a38fab063f23627b6ab02f1811ab9aac.addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+        
+    
+            var circle_marker_8bfeb30e81b2d8523f5bcc0152a9e22c = L.circleMarker(
+                [54.65, 19.5],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+        
+    
+        var popup_9cb53b9c59fb5e62be24ac62906e5bd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d48b72347a0f607b506c9fcc096d1520 = $(`<div id="html_d48b72347a0f607b506c9fcc096d1520" style="width: 100.0%; height: 100.0%;">Kravtsovskoye-Feld (D-6)</div>`)[0];
+                popup_9cb53b9c59fb5e62be24ac62906e5bd6.setContent(html_d48b72347a0f607b506c9fcc096d1520);
+            
+        
+
+        circle_marker_8bfeb30e81b2d8523f5bcc0152a9e22c.bindPopup(popup_9cb53b9c59fb5e62be24ac62906e5bd6)
+        ;
+
+        
+    
+    
+            var circle_marker_f938b992e8720cb16fe02ac09b4f55c3 = L.circleMarker(
+                [54.6, 22.2],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+        
+    
+        var popup_ee0de97d0aa659116328826f5c28596c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82751183a82c837c5f9a0eaa5fd5776b = $(`<div id="html_82751183a82c837c5f9a0eaa5fd5776b" style="width: 100.0%; height: 100.0%;">Gusev Onshore-Feld</div>`)[0];
+                popup_ee0de97d0aa659116328826f5c28596c.setContent(html_82751183a82c837c5f9a0eaa5fd5776b);
+            
+        
+
+        circle_marker_f938b992e8720cb16fe02ac09b4f55c3.bindPopup(popup_ee0de97d0aa659116328826f5c28596c)
+        ;
+
+        
+    
+    
+            var circle_marker_2775acfddbe103183af1dcf9eb726bc5 = L.circleMarker(
+                [54.63, 22.57],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+        
+    
+        var popup_99157c89ba3904c2f035b6dd5289d89d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90e6d52f50182bb314342c8b1c54fae8 = $(`<div id="html_90e6d52f50182bb314342c8b1c54fae8" style="width: 100.0%; height: 100.0%;">Nesterov Onshore-Feld</div>`)[0];
+                popup_99157c89ba3904c2f035b6dd5289d89d.setContent(html_90e6d52f50182bb314342c8b1c54fae8);
+            
+        
+
+        circle_marker_2775acfddbe103183af1dcf9eb726bc5.bindPopup(popup_99157c89ba3904c2f035b6dd5289d89d)
+        ;
+
+        
+    
+    
+            var circle_marker_2b5ea3d56de4c326136fea33e3732bd3 = L.circleMarker(
+                [54.63, 21.83],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_78d5f47eb0741b0118b7967b9cffe1d3);
+        
+    
+        var popup_d94544e85917ec75fcbf9cf158b9c227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69e7c48a1b5a6c5935e98b415ab01ce7 = $(`<div id="html_69e7c48a1b5a6c5935e98b415ab01ce7" style="width: 100.0%; height: 100.0%;">Chernyakhovsk Onshore-Feld</div>`)[0];
+                popup_d94544e85917ec75fcbf9cf158b9c227.setContent(html_69e7c48a1b5a6c5935e98b415ab01ce7);
+            
+        
+
+        circle_marker_2b5ea3d56de4c326136fea33e3732bd3.bindPopup(popup_d94544e85917ec75fcbf9cf158b9c227)
+        ;
+
+        
+    
+</script>
+</html>
